@@ -13,7 +13,7 @@ def main():
         st.link_button("Download QMS STUDY MATERIAL 📖", url="https://drive.google.com/drive/folders/1AYiY3CMUkNWluAnP9BhMmZkx5RRZciwD?usp=sharing")
         st.link_button("Download QMS ASSIGNMENT 📝", url="https://drive.google.com/drive/folders/1oWbDYyQ_ExKCuGF-B7aWfkh68MlCYllM?usp=sharing")
     elif selected_material == "EXAMINATION PAPERS":
-        st.link_button("DOWNLOAD PAPERS 📄", url="https://drive.google.com/drive/folders/1OU3Q5o9s0GYnd54FA3mV-ZDmTt32bX0e?usp=sharing")
+        st.link_button("DOWNLOAD PAPERS[OLD] 📄", url="https://drive.google.com/drive/folders/1OU3Q5o9s0GYnd54FA3mV-ZDmTt32bX0e?usp=sharing")
     elif selected_material=="PROBABILITY":
         st.link_button("DOWNLOAD PROBABILITY NOTES🚀📚",url="https://drive.google.com/drive/folders/18SWl8nmu-TUET0ox2UiINcAw3d-X1Pg8?usp=sharing")
     elif selected_material=="STATISTICAL METHOD 1":
