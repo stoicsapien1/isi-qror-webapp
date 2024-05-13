@@ -5,7 +5,7 @@ def main():
     st.sidebar.success("SELECT THE PAGE ABOVE 📄")
     st.write("***PLEASE SELECT THE SUBJECT*** 🤓")
     
-    selected_material = st.selectbox("Select the Subjects", ["QMS", "STATISTICS", "PROBABILITY", "OPERATIONS RESEARCH", "PROGRAMMING AND DATA STRUCTURES", "RMMR TABLE","EXAMINATION PAPERS"])
+    selected_material = st.selectbox("Select the Subjects", ["QMS", "STATISTICAL METHOD 1", "PROBABILITY", "OPERATIONS RESEARCH", "PROGRAMMING AND DATA STRUCTURES", "RMMR TABLE","EXAMINATION PAPERS"])
     
     if selected_material == "RMMR TABLE":
         st.link_button("Download RMMR 📥", url="https://drive.google.com/file/d/1GxYgJQlY4sl6XDwmna01JFAVojprTuF5/view?usp=drive_link")
@@ -16,9 +16,13 @@ def main():
         st.link_button("DOWNLOAD PAPERS 📄", url="https://drive.google.com/drive/folders/1OU3Q5o9s0GYnd54FA3mV-ZDmTt32bX0e?usp=sharing")
     elif selected_material=="PROBABILITY":
         st.link_button("DOWNLOAD PROBABILITY NOTES🚀📚",url="https://drive.google.com/drive/folders/18SWl8nmu-TUET0ox2UiINcAw3d-X1Pg8?usp=sharing")
-    elif selected_material=="STATISTICS":
-        st.link_button("DOWNLOAD STATISTICS NOTES🚀📚",url="https://drive.google.com/drive/folders/1EkesCgrU8dyRuIMuadtYVLqx8jwguN4l?usp=sharing")
+    elif selected_material=="STATISTICAL METHOD 1":
+        st.link_button("DOWNLOAD SM1 NOTES🚀📚",url="https://drive.google.com/drive/folders/1EkesCgrU8dyRuIMuadtYVLqx8jwguN4l?usp=sharing")
     elif selected_material=="OPERATIONS RESEARCH":
         st.link_button("DOWNLOAD SKD SIR MATERIAL🚀📚",url="https://drive.google.com/file/d/1L2zAAHCSsqROBFeRSQ-Tqf4tAuvRnpki/view?usp=sharing")
+        st.link_button("DOWNLOAD KK SIR MATERIAL🚀📚",url="https://drive.google.com/drive/folders/16KjUsw_BoQIzOkxTMrtMqfte5uqYFb0r?usp=sharing")
+    elif selected_material=="PROGRAMMING AND DATA STRUCTURES":
+        st.link_button("DOWNLOAD UB SIR MATERIAL🚀📚",url="https://drive.google.com/drive/folders/1E7lieYsGwp8UXsHXrogh0818iwuMlj6d?usp=drive_link")
+
 if __name__ == "__main__":
     main()
