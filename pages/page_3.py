@@ -21,11 +21,6 @@ def main():
         st.link_button("DOWNLOAD DIGITAL NOTES🖤",url="https://drive.google.com/drive/folders/1UAC9V3l0irJy8UnxiQuzt68714hRXcZI?usp=sharing")
     elif selected_material=="STATISTICAL METHOD 2":
         st.link_button("DOWNLOAD APPLIED STATISTICS & PROBABILITY FOR ENGINEERS[BOOK]",url="https://drive.google.com/file/d/1zl1Pr1vzxL50-hCxC8erNuqiWMkNuXku/view?usp=sharing")
-        st.link_button("DOWNLOAD HYPOTHESIS TESTING NOTES",url="https://drive.google.com/drive/folders/1sJWCY9wsFlnJksUnzMt2pXRMSC-ZahSO?usp=sharing")
-        st.link_button("DOWNLOAD ANOVA NOTES",url="https://drive.google.com/drive/folders/1vy_669nBzsQdUBTsm8hv9LKW_Iuo8OFN?usp=sharing") 
-        st.link_button("DOWNLOAD SIMPLE LINEAR REGRESSION NOTES",url="https://drive.google.com/drive/folders/1JtGStvIyrjN37Wdklth76jBNWHOGLwH6?usp=sharing") 
-        st.link_button("DOWNLOAD MULTIPLE LINEAR REGRESSION NOTES",url="https://drive.google.com/drive/folders/19yOCk-F_ZBll16CbGlmfwfDJ3Su8ft1q?usp=sharing") 
-        st.link_button("DOWNLOAD ANCOVA NOTES",url="https://drive.google.com/drive/folders/1UQsOjw7l2Wso6W4h6AnIgCDmy6pOwX1Y?usp=sharing")
-        st.link_button("DOWNLOAD NPT NOTES",url="https://drive.google.com/drive/folders/1Yfgi4So82e8SYVXLal-4NBbxMOuSXkoE?usp=sharing")   
+        st.link_button("DOWNLOAD COMPLETE AG SIR NOTES",url="https://drive.google.com/drive/folders/1WUhvMEYTjfb2x8CXXQ0cHy-THqD_nSit?usp=sharing")
 if __name__ == "__main__":
     main()
