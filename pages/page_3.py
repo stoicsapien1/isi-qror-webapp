@@ -28,6 +28,7 @@ def main():
         st.link_button("DOWNLOAD ANCOVA NOTES📊",url="https://drive.google.com/drive/folders/1UQsOjw7l2Wso6W4h6AnIgCDmy6pOwX1Y?usp=sharing")
         st.link_button("DOWNLOAD NPT NOTES🧪",url="https://drive.google.com/drive/folders/1Yfgi4So82e8SYVXLal-4NBbxMOuSXkoE?usp=sharing")
     elif selected_material=="IEM":
-        st.link_button("DOWNLOAD KK SIR MATERIAL[BEFORE MID SEM]⚡",url="https://drive.google.com/drive/folders/1KuRRgp-U6ymxQzB9zSNSPoRyQI6ThUax?usp=sharing")  
+        st.link_button("DOWNLOAD KK SIR MATERIAL[BEFORE MID SEM]⚡",url="https://drive.google.com/drive/folders/1KuRRgp-U6ymxQzB9zSNSPoRyQI6ThUax?usp=sharing")
+        st.link_button("DOWNLOAD IEM MID SEM PAPERS",url="https://drive.google.com/file/d/1KIxPTu0px4THDmA4EZ_Ft86w-PmonltD/view?usp=sharing")
 if __name__ == "__main__":
     main()
