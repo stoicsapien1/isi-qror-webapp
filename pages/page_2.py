@@ -23,6 +23,7 @@ def main():
         st.link_button("DOWNLOAD KK SIR MATERIAL🚀📚",url="https://drive.google.com/drive/folders/16KjUsw_BoQIzOkxTMrtMqfte5uqYFb0r?usp=sharing")
     elif selected_material=="PROGRAMMING AND DATA STRUCTURES":
         st.link_button("DOWNLOAD UB SIR MATERIAL🚀📚",url="https://drive.google.com/drive/folders/1E7lieYsGwp8UXsHXrogh0818iwuMlj6d?usp=drive_link")
+        st.link_button("DOWNLOAD UB SIR ASSIGNMENT",url="https://drive.google.com/drive/folders/1hDBmVECWWDnEhggZtHbTsev8jjKXgUfE?usp=sharing")
 
 if __name__ == "__main__":
     main()
