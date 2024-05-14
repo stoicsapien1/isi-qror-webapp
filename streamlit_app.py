@@ -3,6 +3,7 @@ import streamlit as st
 from pages import page_2, page_3
 
 def main():
+    st.set_page_config(page_title="ISI QROR MATERIAL HUB")
     st.title("Welcome to the M.Tech QROR Study Material Hub!⚡⚡")
     st.image("https://beeimg.com/images/s53843333701.png")
     st.markdown('***"❤️Arise, awake, and stop not until the goal is reached.❤️"***')
