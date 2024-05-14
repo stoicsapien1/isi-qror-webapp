@@ -33,6 +33,9 @@ def main():
     elif selected_material=="RELIABILITY":
         st.link_button("DOWNLOAD NOTES OF SOUMYODEEP MONDAL⚡",url="https://drive.google.com/file/d/1BsEoA4EyWQdj8lo5wa8tsBN1KbPV0oPY/view?usp=sharing")
         st.link_button("DOWNLOAD DIGITAL NOTES🖤",url="https://drive.google.com/drive/folders/1UAC9V3l0irJy8UnxiQuzt68714hRXcZI?usp=sharing")
+        st.link_button("DOWNLOAD RELIABILITY END SEM'23 PAPER📚",url="https://drive.google.com/file/d/1_7_kJobSaHOLtr_OJL5LAhC1QwlO503L/view?usp=sharing")
+        st.link_button("DOWNLOAD RELIABILITY NOTES OF SUMIT KR GUPTA🖤",url="https://drive.google.com/file/d/16wjkhSdc3Q1upUrbYgiymyXWTNUL-5iD/view?usp=sharing")
+        st.link_button("DOWNLOAD RELAIBILITY NOTES OF PRAKASH KUMAR⚡",url="https://drive.google.com/file/d/1Qv2AgKjpIoSrhxO61l45i7TDUxmaUN1c/view?usp=sharing")
     elif selected_material=="STATISTICAL METHOD 2":
         st.link_button("DOWNLOAD APPLIED STATISTICS & PROBABILITY FOR ENGINEERS[BOOK]⚡",url="https://drive.google.com/file/d/1zl1Pr1vzxL50-hCxC8erNuqiWMkNuXku/view?usp=sharing")
         st.link_button("DOWNLOAD HYPOTHESIS TESTING NOTES❤️",url="https://drive.google.com/drive/folders/1sJWCY9wsFlnJksUnzMt2pXRMSC-ZahSO?usp=sharing")
@@ -44,6 +47,7 @@ def main():
     elif selected_material=="IEM":
         st.link_button("DOWNLOAD KK SIR MATERIAL[BEFORE MID SEM]⚡",url="https://drive.google.com/drive/folders/1KuRRgp-U6ymxQzB9zSNSPoRyQI6ThUax?usp=sharing")
         st.link_button("DOWNLOAD IEM MID SEM PAPER📊",url="https://drive.google.com/file/d/1KIxPTu0px4THDmA4EZ_Ft86w-PmonltD/view?usp=sharing")
+        st.link_button("DOWNLOAD KK SIR COMPLETE NOTES📚📊",url="https://drive.google.com/file/d/1zWDk6OliPUgnq_FFmwPkYkDptI6BOXMi/view?usp=sharing")
 
 if __name__ == "__main__":
     main()
