@@ -5,7 +5,15 @@ def main():
     st.title("First Semester Study Material 📚")
     st.sidebar.success("SELECT THE PAGE ABOVE 📄")
     st.write("***PLEASE SELECT THE SUBJECT*** 🤓")
-    
+    st.sidebar.markdown('''
+    ---
+    **Contact Information:**
+
+    For any queries, please contact:
+    - Admin: Belal Ahmed Siddiqui
+    - Email: qr2304@isical.ac.in
+    - LinkedIn: https://bit.ly/belallin
+    ''')
     selected_material = st.selectbox("Select the Subjects", ["QMS", "STATISTICAL METHOD 1", "PROBABILITY", "OPERATIONS RESEARCH", "PROGRAMMING AND DATA STRUCTURES", "RMMR TABLE","EXAMINATION PAPERS"])
     
     if selected_material == "RMMR TABLE":

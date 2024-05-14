@@ -16,14 +16,15 @@ def main():
     
     st.write('***Page 2 contains Semester 1 Study Material***')
     st.write('''***Page 3 contains Semester 2 Study Material***''')
-    st.markdown('''
+    st.sidebar.markdown('''
     ---
     **Contact Information:**
 
     For any queries, please contact:
     - Admin: Belal Ahmed Siddiqui
     - Email: qr2304@isical.ac.in
-    - LinkedIn: https://www.linkedin.com/in/stoicsapien1/
+    - LinkedIn: https://bit.ly/belallin
     ''')
+    
 if __name__ == "__main__":
     main()

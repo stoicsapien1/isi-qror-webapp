@@ -5,6 +5,15 @@ def main():
     st.title("Second Semester Study Material📚")
     st.sidebar.success("SELECT THE PAGE ABOVE⚡")
     st.write("***PLEASE SELECT THE SUBJECT*** 🤓")
+    st.sidebar.markdown('''
+    ---
+    **Contact Information:**
+
+    For any queries, please contact:
+    - Admin: Belal Ahmed Siddiqui
+    - Email: qr2304@isical.ac.in
+    - LinkedIn: https://bit.ly/belallin
+    ''')
     selected_material = st.selectbox("Select the Subjects", ["IEM", "STATISTICAL METHOD 2", "RELIABILITY", "STOCHASTIC PROCESSES", "SQC", "RMMR TABLE","EXAMINATION PAPERS"])
     if selected_material=="SQC":
         st.link_button("DOWNLOAD SQC STUDY MATERIAL(COMPILED BY PRAKASH KUMAR)⚡",url="https://drive.google.com/file/d/1nnIxDBcuXPNKgi-dOdZDpf5FaqOwMnn5/view?usp=sharing")
@@ -31,5 +40,6 @@ def main():
     elif selected_material=="IEM":
         st.link_button("DOWNLOAD KK SIR MATERIAL[BEFORE MID SEM]⚡",url="https://drive.google.com/drive/folders/1KuRRgp-U6ymxQzB9zSNSPoRyQI6ThUax?usp=sharing")
         st.link_button("DOWNLOAD IEM MID SEM PAPER📊",url="https://drive.google.com/file/d/1KIxPTu0px4THDmA4EZ_Ft86w-PmonltD/view?usp=sharing")
+
 if __name__ == "__main__":
     main()
