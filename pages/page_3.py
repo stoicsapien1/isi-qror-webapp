@@ -23,6 +23,9 @@ def main():
         st.link_button("DOWNLOAD RMMR TABLE📥", url="https://drive.google.com/file/d/1GxYgJQlY4sl6XDwmna01JFAVojprTuF5/view?usp=drive_link")
     elif selected_material == "EXAMINATION PAPERS":
         st.link_button("DOWNLOAD PAPERS[OLD]📄", url="https://drive.google.com/drive/folders/1OU3Q5o9s0GYnd54FA3mV-ZDmTt32bX0e?usp=sharing")
+        st.link_button("DOWNLOAD MID SEM PAPERS[NEW]",url="https://drive.google.com/file/d/1L1ah2nSwfExuZDQpVtQoVkbcnbux_ruu/view?usp=sharing")
+        st.link_button("DOWNLOAD END SEM PAPERS[OLD]",url="https://drive.google.com/file/d/1CORRJ2dNQck7of-wQiVvO27Grtc-GNKE/view?usp=sharing")
+        
     elif selected_material=="STOCHASTIC PROCESSES":
         st.link_button("DOWNLOAD NOTES OF SUMIT KR GUPTA 🤓⚡",url="https://drive.google.com/file/d/1BsEoA4EyWQdj8lo5wa8tsBN1KbPV0oPY/view?usp=sharing")
         st.link_button("DOWNLOAD NOTES OF SOUMYODEEP MONDAL⚡",url="https://drive.google.com/file/d/1d0weHrafTONxKm2pgQc1gtgRNWzuVwgT/view?usp=sharing")
