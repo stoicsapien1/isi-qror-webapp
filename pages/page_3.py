@@ -17,7 +17,7 @@ def main():
     selected_material = st.selectbox("Select the Subjects", ["IEM", "STATISTICAL METHOD 2", "RELIABILITY", "STOCHASTIC PROCESSES", "SQC", "RMMR TABLE","EXAMINATION PAPERS"])
     if selected_material=="SQC":
         st.link_button("DOWNLOAD SQC STUDY MATERIAL(COMPILED BY PRAKASH KUMAR)⚡",url="https://drive.google.com/file/d/1nnIxDBcuXPNKgi-dOdZDpf5FaqOwMnn5/view?usp=sharing")
-        st.link_button("DOWNLOAD SQC QUIZ",url="https://drive.google.com/file/d/1OPrGzX0tiWjG29rc07XztYRYZ7iR1-7M/view?usp=sharing")
+        st.link_button("DOWNLOAD SQC QUIZ📚",url="https://drive.google.com/file/d/1OPrGzX0tiWjG29rc07XztYRYZ7iR1-7M/view?usp=sharing")
         st.link_button("LECTURE WISE NOTES❤️",url="https://drive.google.com/drive/folders/1rnlw7uOY9-B2Wvjy1LWqFANEyefQSNPN?usp=sharing")
     elif selected_material == "RMMR TABLE":
         st.link_button("DOWNLOAD RMMR TABLE📥", url="https://drive.google.com/file/d/1GxYgJQlY4sl6XDwmna01JFAVojprTuF5/view?usp=drive_link")
