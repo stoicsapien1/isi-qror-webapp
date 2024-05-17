@@ -31,7 +31,7 @@ def main():
         st.link_button("DOWNLOAD NOTES OF SOUMYODEEP MONDAL⚡",url="https://drive.google.com/file/d/1d0weHrafTONxKm2pgQc1gtgRNWzuVwgT/view?usp=sharing")
         st.link_button("DOWNLOAD DIGITAL NOTES⚡🤓",url="https://drive.google.com/drive/folders/1XIJPCLtu8J8WrSXrCpXx_16mViIWAnrN?usp=sharing")
     elif selected_material=="RELIABILITY":
-        st.link_button("DOWNLOAD NOTES OF SOUMYODEEP MONDAL⚡",url="https://drive.google.com/file/d/1BsEoA4EyWQdj8lo5wa8tsBN1KbPV0oPY/view?usp=sharing")
+        st.link_button("DOWNLOAD NOTES OF SOUMYODEEP MONDAL⚡",url="https://drive.google.com/file/d/1gHiVCOTznLRFLDEuuEpsLEqeEzV-gYCy/view?usp=sharing")
         st.link_button("DOWNLOAD DIGITAL NOTES🖤",url="https://drive.google.com/drive/folders/1UAC9V3l0irJy8UnxiQuzt68714hRXcZI?usp=sharing")
         st.link_button("DOWNLOAD RELIABILITY END SEM'23 PAPER📚",url="https://drive.google.com/file/d/1_7_kJobSaHOLtr_OJL5LAhC1QwlO503L/view?usp=sharing")
         st.link_button("DOWNLOAD RELIABILITY NOTES OF SUMIT KR GUPTA🖤",url="https://drive.google.com/file/d/16wjkhSdc3Q1upUrbYgiymyXWTNUL-5iD/view?usp=sharing")
