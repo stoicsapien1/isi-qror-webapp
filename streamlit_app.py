@@ -24,6 +24,7 @@ def main():
     - Admin: Belal Ahmed Siddiqui
     - Email: qr2304@isical.ac.in
     - LinkedIn: https://bit.ly/belallin
+    - GitHub Repo:https://github.com/stoicsapien1/isi-qror-webapp
     ''')
     
 if __name__ == "__main__":
