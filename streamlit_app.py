@@ -24,7 +24,7 @@ def main():
 
     For any queries, please contact:
     - Admin: Belal Ahmed Siddiqui
-    - Email: qr2304@isical.ac.in
+    - Email: belalahmedsiddiqui8@gmail.com
     - LinkedIn: https://bit.ly/belallin
     
     ''')
