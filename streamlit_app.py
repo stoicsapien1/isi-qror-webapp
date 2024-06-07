@@ -28,7 +28,7 @@ def main():
     - LinkedIn: https://bit.ly/belallin
     
     ''')
-    st.write("Made with ❤️ by Belal Ahmed Siddiqui")
+    
     
 if __name__ == "__main__":
     main()
