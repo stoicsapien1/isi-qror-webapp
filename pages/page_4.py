@@ -13,6 +13,7 @@ def main():
     - Admin: Belal Ahmed Siddiqui
     - Email: belalahmedsiddiqui8@gmail.com
     - LinkedIn: https://bit.ly/belallin
+    - Add Your Study Material: https://forms.gle/KG1RHiWeJDgrsJrx6
     ''')
     selected_material = st.selectbox("Select the Options", ["YT PLAYLIST","PROJECT","DRIVE STUDY MATERIAL"])
     if selected_material=="DRIVE STUDY MATERIAL":
