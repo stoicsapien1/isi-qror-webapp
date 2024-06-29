@@ -1,6 +1,5 @@
 # MADE BY BELAL AHMED SIDDIQUI
 import streamlit as st
-from pages import page_2, page_3
 
 def main():
     
