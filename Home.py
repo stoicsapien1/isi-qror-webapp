@@ -15,9 +15,6 @@ def main():
     st.sidebar.success("SELECT THE PAGE ABOVE❤️")
     # Footer
     
-    st.write('***Page 2 contains Semester 1 Study Material***')
-    st.write('''***Page 3 contains Semester 2 Study Material***''')
-    st.write('***Page 4 contains Data Science Study Material***')
     st.sidebar.markdown('''
     ---
     **Contact Information:**
