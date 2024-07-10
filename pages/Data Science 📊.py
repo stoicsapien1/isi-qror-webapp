@@ -19,7 +19,14 @@ def main():
     if selected_material=="DRIVE STUDY MATERIAL":
             st.link_button("DOWNLOAD DATA SCIENCE STUDY MATERIAL[COMPILED BY SOUBHIK BHATTACHARYA]⚡⚡",url="https://drive.google.com/drive/folders/1tMlOwyXzpiiSWmvlP-X7HSrc4dxBi0YJ?usp=sharing")
             st.write("THIS DRIVE FOLDER HAVE ML BOOKS📚")
+    elif selected_material=="YT PLAYLIST":
 
+        data=st.selectbox("Select the Topic💹",["ML"])
+        if data=="ML":
+            st.link_button("ML PLAYLIST",url="https://www.youtube.com/watch?v=ZftI2fEz0Fw&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH")
+            
+         
+         
 
 
 
