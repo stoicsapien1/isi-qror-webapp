@@ -21,12 +21,13 @@ def main():
             st.write("THIS DRIVE FOLDER HAVE ML BOOKS📚")
     elif selected_material=="YT PLAYLIST":
 
-        data=st.selectbox("Select the Topic💹",["ML","Python"])
+        data=st.selectbox("Select the Topic💹",["Python","ML"])
         if data=="ML":
             st.link_button("ML PLAYLIST",url="https://www.youtube.com/watch?v=ZftI2fEz0Fw&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH")
         elif data=="Python":
             st.link_button("YT Python Playlist",url="https://www.youtube.com/playlist?list=PLDSuOcTPwmj_IRd6hei9fVNI_QGa5LRCN")
             st.link_button("Python Practice[HACKERRANK]",url="https://www.hackerrank.com/domains/python")
+            st.link_button("Python Question[PDF]",url="https://docs.google.com/document/d/1CuKacG3lnnt5B-7kB9p1DiJ2PLFW8TQWn9JG1lTYRJs/edit#heading=h.ghy5ky51yxzv")
             
          
          
