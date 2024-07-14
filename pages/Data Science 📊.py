@@ -23,7 +23,8 @@ def main():
 
         data=st.selectbox("Select the Topic💹",["Python","ML"])
         if data=="ML":
-            st.link_button("ML PLAYLIST",url="https://www.youtube.com/watch?v=ZftI2fEz0Fw&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH")
+            st.link_button("ML CAMPUSX[Code+ Concepts]",url="https://www.youtube.com/watch?v=ZftI2fEz0Fw&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH")
+            st.link_button("ML STATSQUEST[Concepts]",url="https://www.youtube.com/watch?v=Gv9_4yMHFhI&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF")
         elif data=="Python":
             st.link_button("YT Python Playlist",url="https://www.youtube.com/playlist?list=PLDSuOcTPwmj_IRd6hei9fVNI_QGa5LRCN")
             st.link_button("Python Practice[HACKERRANK]",url="https://www.hackerrank.com/domains/python")
