@@ -29,7 +29,8 @@ def main():
             st.link_button("YT Python Playlist",url="https://www.youtube.com/playlist?list=PLDSuOcTPwmj_IRd6hei9fVNI_QGa5LRCN")
             st.link_button("Python Practice[HACKERRANK]",url="https://www.hackerrank.com/domains/python")
             st.link_button("Python Question[PDF]",url="https://docs.google.com/document/d/1CuKacG3lnnt5B-7kB9p1DiJ2PLFW8TQWn9JG1lTYRJs/edit#heading=h.ghy5ky51yxzv")
-            
+    elif selected_material=="PROJECT":
+        st.link_button("BASIC ML PROJECT",url="https://www.youtube.com/watch?v=fiz1ORTBGpY&list=PLfFghEzKVmjvuSA67LszN1dZ-Dd_pkus6")         
          
          
 
