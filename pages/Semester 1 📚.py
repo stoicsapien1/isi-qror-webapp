@@ -22,6 +22,7 @@ def main():
     elif selected_material == "QMS":
         st.link_button("DOWNLOAD QMS STUDY MATERIAL 📖", url="https://drive.google.com/drive/folders/1AYiY3CMUkNWluAnP9BhMmZkx5RRZciwD?usp=sharing")
         st.link_button("DOWNLOAD QMS ASSIGNMENT 📝", url="https://drive.google.com/drive/folders/1oWbDYyQ_ExKCuGF-B7aWfkh68MlCYllM?usp=sharing")
+        st.link_button("DOWNLOAD QMS MATERIAL 2023",url="https://drive.google.com/drive/folders/1mgSCHIr_hpSfhd2BbMrfTnhRPZeaGUQj?usp=sharing")
     elif selected_material == "EXAMINATION PAPERS":
         st.link_button("DOWNLOAD PAPERS[OLD] 📄", url="https://drive.google.com/drive/folders/1OU3Q5o9s0GYnd54FA3mV-ZDmTt32bX0e?usp=sharing")
         st.link_button("DOWNLOAD MID SEM PAPERS[NEW]📊🤓",url="https://drive.google.com/file/d/1mRHT-HpOKgi-Aj--hniZX7eStJO5Ghu1/view?usp=sharing")
@@ -34,6 +35,7 @@ def main():
     elif selected_material=="OPERATIONS RESEARCH":
         st.link_button("DOWNLOAD SKD SIR MATERIAL🚀📚",url="https://drive.google.com/file/d/1pesNRIg-LOrhmUmxmFrYDzr9qP13gEf4/view?usp=sharing")
         st.link_button("DOWNLOAD KK SIR MATERIAL🚀📚",url="https://drive.google.com/drive/folders/16KjUsw_BoQIzOkxTMrtMqfte5uqYFb0r?usp=sharing")
+        st.link_button("DOWNLOAD LINEAR ALGEBRA BOOK",url="https://drive.google.com/file/d/1bz0m8nciWSvWyuVsy04gmucDPbOzeFaY/view")
     elif selected_material=="PROGRAMMING AND DATA STRUCTURES":
         st.link_button("DOWNLOAD UB SIR MATERIAL🚀📚",url="https://drive.google.com/drive/folders/1E7lieYsGwp8UXsHXrogh0818iwuMlj6d?usp=drive_link")
         st.link_button("DOWNLOAD UB SIR ASSIGNMENT💻",url="https://drive.google.com/drive/folders/1hDBmVECWWDnEhggZtHbTsev8jjKXgUfE?usp=sharing")
