@@ -32,7 +32,7 @@ def main():
     elif selected_material=="STATISTICAL METHOD 1":
         st.link_button("DOWNLOAD SM1 NOTES🚀📚",url="https://drive.google.com/drive/folders/1EkesCgrU8dyRuIMuadtYVLqx8jwguN4l?usp=sharing")
     elif selected_material=="OPERATIONS RESEARCH":
-        st.link_button("DOWNLOAD SKD SIR MATERIAL🚀📚",url="https://drive.google.com/file/d/1L2zAAHCSsqROBFeRSQ-Tqf4tAuvRnpki/view?usp=sharing")
+        st.link_button("DOWNLOAD SKD SIR MATERIAL🚀📚",url="https://drive.google.com/file/d/1pesNRIg-LOrhmUmxmFrYDzr9qP13gEf4/view?usp=sharing")
         st.link_button("DOWNLOAD KK SIR MATERIAL🚀📚",url="https://drive.google.com/drive/folders/16KjUsw_BoQIzOkxTMrtMqfte5uqYFb0r?usp=sharing")
     elif selected_material=="PROGRAMMING AND DATA STRUCTURES":
         st.link_button("DOWNLOAD UB SIR MATERIAL🚀📚",url="https://drive.google.com/drive/folders/1E7lieYsGwp8UXsHXrogh0818iwuMlj6d?usp=drive_link")
