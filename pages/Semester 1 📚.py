@@ -30,6 +30,7 @@ def main():
         
     elif selected_material=="PROBABILITY":
         st.link_button("DOWNLOAD PROBABILITY NOTES🚀📚",url="https://drive.google.com/drive/folders/18SWl8nmu-TUET0ox2UiINcAw3d-X1Pg8?usp=sharing")
+        st.link_button("DOWNLOAD PROBABILITY BOOK",url="https://drive.google.com/file/d/1ies89poEi_FhOsVpw1HfGwqwsZ5ro5yK/view?usp=sharing")
     elif selected_material=="STATISTICAL METHOD 1":
         st.link_button("DOWNLOAD SM1 NOTES🚀📚",url="https://drive.google.com/drive/folders/1EkesCgrU8dyRuIMuadtYVLqx8jwguN4l?usp=sharing")
     elif selected_material=="OPERATIONS RESEARCH":
