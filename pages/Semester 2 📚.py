@@ -12,7 +12,6 @@ def main():
     For any queries, please contact:
     - Admin: Belal Ahmed Siddiqui
     - Email: belalahmedsiddiqui8@gmail.com
-    - LinkedIn: https://bit.ly/belallin
     - Add Your Study Material: https://forms.gle/KG1RHiWeJDgrsJrx6
     ''')
     selected_material = st.selectbox("Select the Subjects", ["IEM", "STATISTICAL METHOD 2", "RELIABILITY", "STOCHASTIC PROCESSES", "SQC", "RMMR TABLE","EXAMINATION PAPERS"])
