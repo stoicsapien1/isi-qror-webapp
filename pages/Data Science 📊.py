@@ -44,7 +44,16 @@ def main():
         st.link_button("BASIC ML PROJECTS",url="https://www.youtube.com/watch?v=fiz1ORTBGpY&list=PLfFghEzKVmjvuSA67LszN1dZ-Dd_pkus6")         
          
          
+    st.markdown("""
+### YT PLAYLIST
+This section contains YouTube playlists on several ML topics like **Numpy**, **Pandas**, **Seaborn**, etc.
 
+### PROJECT
+This section contains video links to several ML projects.
+
+### ML BOOKS
+This section contains several **Machine Learning (ML)**, **Deep Learning (DL)**, and **Time-Series** books.
+""")
 
 
 
