@@ -45,15 +45,32 @@ def main():
          
          
     st.markdown("""
-### YT PLAYLIST
-This section contains YouTube playlists on several ML topics like **Numpy**, **Pandas**, **Seaborn**, etc.
+    <style>
+        .playlist {
+            color: #1f77b4; /* blue */
+        }
+        .project {
+            color: #ff7f0e; /* orange */
+        }
+        .books {
+            color: #2ca02c; /* green */
+        }
+        .highlight {
+            font-weight: bold;
+        }
+    </style>
+    """, unsafe_allow_html=True)
 
-### PROJECT
-This section contains video links to several ML projects.
+    st.markdown("""
+    ### <span class="playlist">YT PLAYLIST</span>
+    This section contains YouTube playlists on several ML topics like <span class="highlight">Numpy</span>, <span class="highlight">Pandas</span>, <span class="highlight">Seaborn</span>, etc.
 
-### ML BOOKS
-This section contains several **Machine Learning (ML)**, **Deep Learning (DL)**, and **Time-Series** books.
-""")
+    ### <span class="project">PROJECT</span>
+    This section contains video links to several ML projects.
+
+    ### <span class="books">ML BOOKS</span>
+    This section contains several <span class="highlight">Machine Learning (ML)</span>, <span class="highlight">Deep Learning (DL)</span>, and <span class="highlight">Time-Series</span> books.
+    """, unsafe_allow_html=True)
 
 
 
