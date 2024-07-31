@@ -3,7 +3,7 @@ import streamlit as st
 def main():
     st.set_page_config(page_title="ISI QROR MATERIAL HUB", page_icon="📚", layout="centered", initial_sidebar_state="auto", menu_items=None)
     st.title("First Semester Study Material 📚")
-    st.sidebar.success("SELECT THE PAGE ABOVE 📄")
+    st.sidebar.success("SELECT THE PAGE ABOVE ")
     st.write("***PLEASE SELECT THE SUBJECT*** 🤓")
     st.sidebar.markdown('''
     ---
