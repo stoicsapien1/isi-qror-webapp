@@ -16,8 +16,8 @@ def main():
     ''')
     selected_material = st.selectbox("Select the Options", ["YT PLAYLIST","PROJECT","ML BOOKS"])
     if selected_material=="ML BOOKS":
-            st.link_button("DOWNLOAD DATA SCIENCE STUDY MATERIAL[COMPILED BY SOUBHIK BHATTACHARYA]⚡⚡",url="https://drive.google.com/drive/folders/1tMlOwyXzpiiSWmvlP-X7HSrc4dxBi0YJ?usp=sharing")
-            st.write("THIS DRIVE FOLDER HAVE ML BOOKS📚")
+            st.link_button("DOWNLOAD DATA SCIENCE BOOKS[COMPILED BY SOUBHIK BHATTACHARYA]⚡⚡",url="https://drive.google.com/drive/folders/1tMlOwyXzpiiSWmvlP-X7HSrc4dxBi0YJ?usp=sharing")
+            
     elif selected_material=="YT PLAYLIST":
 
         data=st.selectbox("Select the Topic💹",["Python","NUMPY","PANDAS","MATPLOTLIB","SEABORN","ML"])
