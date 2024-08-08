@@ -23,6 +23,8 @@ def main():
     - Add Your Study Material: https://forms.gle/KG1RHiWeJDgrsJrx6
     
     ''')
+    st.write('''❗All materials, including PDFs and book notes, belong to their respective owners. 
+             They are shared here for educational purposes only.❗''')
     
     
 if __name__ == "__main__":
