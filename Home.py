@@ -23,7 +23,7 @@ def main():
     - Add Your Study Material: https://forms.gle/KG1RHiWeJDgrsJrx6
     
     ''')
-    st.write('''❗All materials, including PDFs and book notes, belong to their respective owners.
+    st.write('''❗All materials, including PDFs,Books,and Notes, belong to their respective owners.
              They are shared here for educational purposes only; no copyright infringement is intended.❗''')
     
     
