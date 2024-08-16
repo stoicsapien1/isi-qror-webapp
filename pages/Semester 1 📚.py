@@ -33,7 +33,7 @@ def main():
         st.link_button("DOWNLOAD PROBABILITY LATEST NOTES",url="https://drive.google.com/file/d/1AMBY_s25YHV_klT8A_-xboX90U_-nPWP/view?usp=sharing")
     elif selected_material=="STATISTICAL METHOD 1":
         st.link_button("DOWNLOAD SM1 NOTES🚀📚",url="https://drive.google.com/drive/folders/1EkesCgrU8dyRuIMuadtYVLqx8jwguN4l?usp=sharing")
-        st.link_button("DOWNLOAD COMPLETE SM 1 NOTES[LATEST 😉]",url="https://drive.google.com/file/d/1-_cU7ygW_aObGqoaRZAFW9eTsWMGJKZP/view?usp=sharing")
+        st.link_button("DOWNLOAD COMPLETE SM 1 NOTES[LATEST]😉",url="https://drive.google.com/file/d/1-_cU7ygW_aObGqoaRZAFW9eTsWMGJKZP/view?usp=sharing")
     elif selected_material=="OPERATIONS RESEARCH":
         st.link_button("DOWNLOAD SKD SIR MATERIAL🚀📚",url="https://drive.google.com/file/d/1pesNRIg-LOrhmUmxmFrYDzr9qP13gEf4/view?usp=sharing")
         st.link_button("DOWNLOAD KK SIR MATERIAL🚀📚",url="https://drive.google.com/drive/folders/16KjUsw_BoQIzOkxTMrtMqfte5uqYFb0r?usp=sharing")
