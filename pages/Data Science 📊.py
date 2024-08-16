@@ -33,7 +33,7 @@ def main():
 
         elif data=="PANDAS":
             st.link_button("PANDAS PLAYLIST",url="https://www.youtube.com/watch?v=CmorAWRsCAw&list=PLeo1K3hjS3uuASpe-1LjfG5f14Bnozjwy")
-
+            st.link_button("PANDAS PRACTICE",url="https://drive.google.com/file/d/1onfaw-0pA2fhCNccBLggoZlm53BjJ4FV/view?usp=sharing")
         elif data=="MATPLOTLIB":
             st.link_button("MATPLOTLIB PLAYLIST",url="https://www.youtube.com/watch?v=qqwf4Vuj8oM&list=PLeo1K3hjS3uu4Lr8_kro2AqaO6CFYgKOl")
 
