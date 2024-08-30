@@ -20,7 +20,6 @@ def main():
     For any queries, please contact:
     - Admin: Belal Ahmed Siddiqui
     - Email: belalahmedsiddiqui8@gmail.com
-    - Add Your Study Material: https://forms.gle/KG1RHiWeJDgrsJrx6
     
     ''')
     st.write('''❗All materials, including PDFs,Books,and Notes, belong to their respective owners.
