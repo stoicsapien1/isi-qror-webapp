@@ -12,7 +12,7 @@ def main():
     For any queries, please contact:
     - Admin: Belal Ahmed Siddiqui
     - Email: belalahmedsiddiqui8@gmail.com
-    - Add Your Study Material: https://forms.gle/KG1RHiWeJDgrsJrx6
+    
     ''')
     selected_material = st.selectbox("Select the Options", ["YT PLAYLIST","PROJECT","ML BOOKS"])
     if selected_material=="ML BOOKS":
