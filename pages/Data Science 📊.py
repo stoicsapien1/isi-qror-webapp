@@ -29,7 +29,7 @@ def main():
             st.link_button("Python Practice[HACKERRANK]",url="https://www.hackerrank.com/domains/python")
             st.link_button("Python Question[PDF]",url="https://docs.google.com/document/d/1CuKacG3lnnt5B-7kB9p1DiJ2PLFW8TQWn9JG1lTYRJs/edit#heading=h.ghy5ky51yxzv")
         elif data=="NUMPY":
-            st.link_button("NUMPY PLAYLIST",url="https://www.youtube.com/watch?v=rN0TREj8G7U&list=PLUcmakntVocWGSKXIsUn1J7Wm9ekpZ87G")
+            st.link_button("NUMPY PLAYLIST",url="https://www.youtube.com/watch?v=d0E0_87CrFA&list=PLyMom0n-MBrpzC91Uo560S4VbsiLYtCwo&index=4")
 
         elif data=="PANDAS":
             st.link_button("PANDAS PLAYLIST",url="https://www.youtube.com/watch?v=CmorAWRsCAw&list=PLeo1K3hjS3uuASpe-1LjfG5f14Bnozjwy")
