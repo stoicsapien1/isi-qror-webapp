@@ -2,6 +2,9 @@
 
 # ISI QROR Material Hub 📚💻
 
+Please fork it and make necessary changes.
+
+
 Welcome to the **M.Tech QROR Study Material Hub**! This web application is designed to provide easy access to study materials for students of the M.Tech program in Quality, Reliability, and Operations Research (QROR) at the Indian Statistical Institute (ISI), Kolkata.
 
 ## Table of Contents
