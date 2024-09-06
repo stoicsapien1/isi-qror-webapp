@@ -11,7 +11,7 @@ def main():
 
     For any queries, please contact:
     - Admin: Belal Ahmed Siddiqui
-    - Email: belalahmedsiddiqui8@gmail.com
+
     
     ''')
     selected_material = st.selectbox("Select the Options", ["YT PLAYLIST","PROJECT","ML BOOKS"])

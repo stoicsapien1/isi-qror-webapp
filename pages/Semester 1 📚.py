@@ -11,7 +11,7 @@ def main():
 
     For any queries, please contact:
     - Admin: Belal Ahmed Siddiqui
-    - Email: belalahmedsiddiqui8@gmail.com
+   
     
     ''')
     selected_material = st.selectbox("Select the Subjects", ["QMS", "STATISTICAL METHOD 1", "PROBABILITY", "OPERATIONS RESEARCH", "PROGRAMMING AND DATA STRUCTURES", "RMMR TABLE","EXAMINATION PAPERS"])
