@@ -30,7 +30,7 @@ def main():
     elif selected_material=="PROBABILITY":
         st.link_button("DOWNLOAD PROBABILITY NOTES🚀📚",url="https://drive.google.com/drive/folders/18SWl8nmu-TUET0ox2UiINcAw3d-X1Pg8?usp=sharing")
         st.link_button("DOWNLOAD PROBABILITY BOOK📚",url="https://drive.google.com/file/d/1ies89poEi_FhOsVpw1HfGwqwsZ5ro5yK/view?usp=sharing")
-        st.link_button("DOWNLOAD PROBABILITY LATEST NOTES",url="https://drive.google.com/file/d/1AMBY_s25YHV_klT8A_-xboX90U_-nPWP/view?usp=sharing")
+        st.link_button("DOWNLOAD NOTES OF SOUMYADEEP MONDAL⚡]",url="https://drive.google.com/file/d/1AMBY_s25YHV_klT8A_-xboX90U_-nPWP/view?usp=sharing")
     elif selected_material=="STATISTICAL METHOD 1":
         st.link_button("DOWNLOAD SM1 NOTES🚀📚",url="https://drive.google.com/drive/folders/1EkesCgrU8dyRuIMuadtYVLqx8jwguN4l?usp=sharing")
         st.link_button("DOWNLOAD COMPLETE SM 1 NOTES[LATEST]😉",url="https://drive.google.com/file/d/1-_cU7ygW_aObGqoaRZAFW9eTsWMGJKZP/view?usp=sharing")
