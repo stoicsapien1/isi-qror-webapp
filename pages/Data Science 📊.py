@@ -38,7 +38,7 @@ def main():
             st.link_button("MATPLOTLIB PLAYLIST",url="https://www.youtube.com/watch?v=qqwf4Vuj8oM&list=PLeo1K3hjS3uu4Lr8_kro2AqaO6CFYgKOl")
 
         elif data=="SEABORN":
-            st.link_button("SEABORN PLAYLIST",url="https://www.youtube.com/watch?v=qqwf4Vuj8oM&list=PLeo1K3hjS3uu4Lr8_kro2AqaO6CFYgKOl")
+            st.link_button("SEABORN PLAYLIST",url="https://www.youtube.com/watch?v=Hb3RmWowIKw&list=PLc20sA5NNOvq8CldEUOZEHnoVIk4svXuZ")
              
     elif selected_material=="PROJECT":
         st.link_button("BASIC ML PROJECTS",url="https://www.youtube.com/watch?v=fiz1ORTBGpY&list=PLfFghEzKVmjvuSA67LszN1dZ-Dd_pkus6")         
