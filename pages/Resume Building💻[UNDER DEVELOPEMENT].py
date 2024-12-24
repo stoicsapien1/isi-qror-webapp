@@ -23,7 +23,7 @@ def main():
     st.subheader("Overleaf Template") 
     st.write('''This template is quite good,just edit this template using overleaf,it has all the required section
              that constitutes a GOOD Resume''')
-    st.link_button("DOWNLOAD TEMPLATE",url="https://drive.google.com/file/d/1w6ACmpKAETCK3_oTNAERD9QptjYpriO1/view?usp=sharing")
+    st.link_button("DOWNLOAD TEMPLATE",url="https://drive.google.com/file/d/1bhrEj7RR-omwHE-T0c_yfA0_DsqERn2h/view?usp=sharing")
 
     st.write("How to Use the Template") 
     st.write("""
