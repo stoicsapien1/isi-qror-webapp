@@ -25,6 +25,6 @@ def main():
     st.write('''❗All materials, including PDFs,Books,and Notes, belong to their respective owners.
              They are shared here for educational purposes only; no copyright infringement is intended.❗''')
     
-    
+    st.write("Made with ❤️")
 if __name__ == "__main__":
     main()
