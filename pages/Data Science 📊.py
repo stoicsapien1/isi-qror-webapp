@@ -20,7 +20,7 @@ def main():
             
     elif selected_material=="YT PLAYLIST":
 
-        data=st.selectbox("Select the Topic💹",["Python","NUMPY","PANDAS","MATPLOTLIB","SEABORN","ML"])
+        data=st.selectbox("Select the Topic💹",["Python","NUMPY","PANDAS","MATPLOTLIB","SEABORN","ML","DL"])
         if data=="ML":
             st.link_button("ML CAMPUSX[Code+ Concepts]",url="https://www.youtube.com/watch?v=ZftI2fEz0Fw&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH")
             st.link_button("ML STATSQUEST[Concepts]",url="https://www.youtube.com/watch?v=Gv9_4yMHFhI&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF")
@@ -39,7 +39,8 @@ def main():
 
         elif data=="SEABORN":
             st.link_button("SEABORN PLAYLIST",url="https://www.youtube.com/watch?v=Hb3RmWowIKw&list=PLc20sA5NNOvq8CldEUOZEHnoVIk4svXuZ")
-             
+        elif data=="DL":
+            st.link_button("DL CAMPUSX",url="https://www.youtube.com/watch?v=2dH_qjc9mFg&list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn")    
     elif selected_material=="PROJECT":
         st.link_button("BASIC ML PROJECTS",url="https://www.youtube.com/watch?v=fiz1ORTBGpY&list=PLfFghEzKVmjvuSA67LszN1dZ-Dd_pkus6")         
          
