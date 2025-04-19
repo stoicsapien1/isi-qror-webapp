@@ -37,5 +37,15 @@ def main():
 
 
 
+    st.subheader("Using ChatGPT To Write Project Description")
+    st.write("""
+ ChatGPT can help you describe your projects clearly and professionally.  
+ You can share the details of what you worked on, and it will:  
+    1. Summarize the project in simple and effective words.  
+    2. Highlight the results you achieved.  
+    
+""")
+
+
 if __name__ == "__main__":
     main()
