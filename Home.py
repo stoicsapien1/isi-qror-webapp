@@ -21,6 +21,7 @@ def main():
     * Survival Analysis
     * Machine Learning
     * Statistical Quality Control
+    * Quantitative Finance
     """)
     
     # Syllabus button with custom styling
