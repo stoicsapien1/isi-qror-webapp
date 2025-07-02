@@ -21,10 +21,12 @@ def main():
     st.write("Later add the ISI Kolkata LOGO using some PDF Editor Tool.")
     st.link_button("VISIT HACKERRESUME WEBSITE",url="https://www.hackerrank.com/resume")
     st.link_button("VISIT PDF EDITOR TOOL",url="https://smallpdf.com/edit-pdf")
+
     st.subheader("Overleaf Template") 
     st.write('''This template is quite good,just edit this template using overleaf,it has all the required section
              that constitutes a GOOD Resume''')
     st.link_button("DOWNLOAD TEMPLATE",url="https://drive.google.com/file/d/1bhrEj7RR-omwHE-T0c_yfA0_DsqERn2h/view?usp=sharing")
+    st.link_button("DOWNLOAD JAKE'S RESUME[OVERLEAF TEMPLATE]",url="https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs")
 
     st.write("How to Use the Template") 
     st.write("""
