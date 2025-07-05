@@ -13,6 +13,16 @@ def main():
    
     
     ''')
+    selected_material = st.selectbox("Select the Subjects",[
+    "OPERATIONS RESEARCH",
+    "INDUSTRIAL EXPERIMENTATION",
+    "RELIABILITY - II",
+    "ADVANCED MULTIVARIATE ANALYSIS",
+    "BUSINESS ANALYTICS",
+    "SIX SIGMA",
+    "EXAMINATION PAPERS"])
+    
+
 
 if __name__ == "__main__":
     main()
