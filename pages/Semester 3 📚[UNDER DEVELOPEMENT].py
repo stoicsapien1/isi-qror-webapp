@@ -4,15 +4,10 @@ def main():
     st.title("Third Semester Study Material📚")
     st.sidebar.success("SELECT THE PAGE ABOVE")
     st.write("***PLEASE SELECT THE SUBJECT*** 🤓")
-    st.sidebar.markdown('''
-    ---
-    **Contact Information:**
 
-    For any queries, please contact:
-    - Admin: Belal Ahmed Siddiqui
    
     
-    ''')
+  
     selected_material = st.selectbox("Select the Subjects",[
     "OPERATIONS RESEARCH",
     "INDUSTRIAL EXPERIMENTATION",

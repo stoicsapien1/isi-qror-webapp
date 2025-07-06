@@ -6,15 +6,7 @@ def main():
     
     st.write("***PLEASE SELECT THE SUBJECT*** 🤓")
     st.sidebar.success("SELECT THE PAGE ABOVE")
-    st.sidebar.markdown('''
-    ---
-    **Contact Information:**
 
-    For any queries, please contact:
-    - Admin: Belal Ahmed Siddiqui
-    
-    
-    ''')
     selected_material = st.selectbox("Select the Subjects", ["IEM", "STATISTICAL METHOD 2", "RELIABILITY", "STOCHASTIC PROCESSES", "SQC", "RMMR TABLE","EXAMINATION PAPERS"])
     if selected_material=="SQC":
         st.link_button("DOWNLOAD SQC STUDY MATERIAL(COMPILED BY PRAKASH KUMAR)⚡",url="https://drive.google.com/file/d/1nnIxDBcuXPNKgi-dOdZDpf5FaqOwMnn5/view?usp=sharing")

@@ -6,6 +6,7 @@ def main():
     st.set_page_config(page_title="ISI QROR MATERIAL HUB", page_icon="📚", layout="centered", initial_sidebar_state="auto", menu_items=None)
     st.title("Welcome to the M.Tech QROR Study Material Hub!📚💻")
     st.image("https://i.postimg.cc/Xq92QSJF/SQC-AND-OR-UNIT.png")
+    
     st.markdown('***"❤️Arise, awake, and stop not until the goal is reached.❤️"***')
     # Add quote attribution with styling
     st.markdown("*- Swami Vivekanand*", help="Quote by Swami Vivekanand")

@@ -3,15 +3,7 @@ def main():
     st.set_page_config(page_title="ISI QROR MATERIAL HUB", page_icon="📚", layout="centered", initial_sidebar_state="auto", menu_items=None)
     st.title("Resume Building💻")
     st.sidebar.success("SELECT THE PAGE ABOVE ")
-    st.sidebar.markdown('''
-    ---
-    **Contact Information:**
 
-    For any queries, please contact:
-    - Admin: Belal Ahmed Siddiqui
-   
-    
-    ''')
 
     st.subheader("HackerResume Builder") 
     st.write('''HackerResume is a good site to make resume in a very structured format.
