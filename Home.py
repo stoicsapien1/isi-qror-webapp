@@ -3,7 +3,6 @@ import streamlit as st
 def specialization_details():
     tracks = {
         "🧮 Data Science & Analytics": "Courses focus on analytics, statistical inference, and practical applications in real-world cases.",
-        "🤖 Artificial Intelligence": "Modern AI methods—deep learning, NLP, reinforcement learning, and industry applications.",
         "🧑‍💻 Machine Learning": "Supervised & unsupervised learning, model validation, scalability, and hands-on projects.",
         "🧪 Statistical Quality Control": "Process control, Six Sigma methods, and reliability engineering for quality improvement.",
         "💹 Quantitative Finance": "Financial mathematics, risk measurement, and computational finance techniques.",
@@ -64,8 +63,7 @@ def main():
     # --- ABOUT SECTION ---
     st.header("About the Program")
     st.write(
-        """The **M.Tech in Quality, Reliability & Operations Research (QROR)** at the Indian Statistical Institute, Kolkata, shapes experts in advanced analytics, AI, and industrial statistics.\n
-**Key specialization tracks:**"""
+        """The **M.Tech in Quality, Reliability & Operations Research (QROR)** at the Indian Statistical Institute, Kolkata, shapes experts in advanced analytics, AI, and industrial statistics.\n"""
     )
     specialization_details()
 
