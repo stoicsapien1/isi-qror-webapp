@@ -81,8 +81,8 @@ def main():
     st.markdown("---")
     st.markdown(
         """
-        **Contact & Community:**  
-        - 🧑‍💼 **Admin**: Belal Ahmed Siddiqui  
+        **Disclaimer:**  
+        
         """
     )
 
@@ -95,7 +95,7 @@ def main():
     st.markdown("<hr>", unsafe_allow_html=True)
     st.markdown(
         "<div style='text-align:center; color: var(--secondary); font-size: 1.07em; margin-bottom:16px;'>"
-        "Made with ❤️ for ISI QROR students & community."
+        "Made with ❤️ by Belal Ahmed Siddiqui"
         "</div>",
         unsafe_allow_html=True
     )
