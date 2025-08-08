@@ -63,7 +63,7 @@ def main():
     # --- ABOUT SECTION ---
     st.header("About the Program")
     st.write(
-        """The **M.Tech in Quality, Reliability & Operations Research (QROR)** at the Indian Statistical Institute, Kolkata, shapes experts in advanced analytics, AI, and industrial statistics.\n"""
+        """The **M.Tech in Quality, Reliability & Operations Research (QROR)** at the Indian Statistical Institute, Kolkata, shapes experts in Machine Learning, Deep Learning , NLP , Advanced Analytics, AI, and industrial statistics.\n"""
     )
     specialization_details()
 
