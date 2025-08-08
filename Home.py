@@ -14,7 +14,7 @@ def specialization_details():
 
 def main():
     st.set_page_config(
-        page_title="ISI QROR Material Hub",
+        page_title="ISI QROR Material Hub ",
         page_icon="📚",
         layout="centered"
     )
@@ -38,7 +38,7 @@ def main():
     # --- HERO SECTION ---
    
     st.markdown(
-        "<h1 style='text-align:center; margin-bottom:0.2em;'>M.Tech QROR Study Material Hub</h1>",
+        "<h1 style='text-align:center; margin-bottom:0.2em;'>📚M.Tech QROR Study Material Hub ❤️</h1>",
         unsafe_allow_html=True
     )
 
