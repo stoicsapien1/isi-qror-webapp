@@ -6,7 +6,7 @@
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/)
 
 A **study material hub** designed for **first-year M.Tech QROR students** at the *Indian Statistical Institute (ISI)*.  
-This web application provides easy access to all essential academic resources for **Semester 1** and **Semester 2**, including:
+This web application provides easy access to all essential academic resources for all **Semesters**
 
 - 📄 Lecture Notes  
 - 📚 Textbooks  
