@@ -1,9 +1,5 @@
 import streamlit as st
 
-import streamlit as st
-
-import streamlit as st
-
 def specialization_details():
     tracks = {
         "🧮 Data Science & Analytics": [
@@ -72,9 +68,19 @@ def main():
 
     # --- HERO SECTION ---
     st.markdown(
-        "<h1 style='text-align:center; margin-bottom:0.2em;'>M.Tech QROR Study Material Hub 😎❤️</h1>",
-        unsafe_allow_html=True
-    )
+    """
+    <div style='text-align:center; padding: 2em 0; background: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%); border-radius: 15px; margin: 1em 0;'>
+        <h1 style='font-size: 2.5em; font-weight: 700; color: #1E1E1E; margin-bottom: 0.3em; text-shadow: 2px 2px 4px rgba(0,0,0,0.1);'>
+            📚 M.Tech QROR Study Material Hub
+        </h1>
+        <p style='font-size: 1.2em; color: #4A4A4A; font-weight: 500; margin-top: 0.5em;'>
+            Indian Statistical Institute, Kolkata 
+            <span style='margin: 0 0.5em;'>
+        </p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
     # Modern quote box (no fixed background)
     st.markdown(
@@ -92,13 +98,27 @@ def main():
     st.header("About the Program")
     st.markdown(
     """
-    The **M.Tech in Quality, Reliability & Operations Research (QROR)** at the *Indian Statistical Institute, Kolkata* 
-    is a prestigious program designed to produce industry-ready and research-driven professionals.  
-    It blends rigorous training in **Machine Learning, Deep Learning, Natural Language Processing (NLP), 
-    Advanced Analytics, Artificial Intelligence (AI)**, and **Industrial Statistics** with hands-on problem-solving.  
-    Graduates are equipped to excel in cutting-edge research, high-impact industry roles, and data-driven decision-making.
-    """,
-    unsafe_allow_html=True
+    
+
+    The Indian Statistical Institute, Kolkata offers this specialized program combining academic excellence 
+    with industry relevance. 
+    Our graduates emerge as:
+
+    * 🎯 Industry-ready professionals.
+    * 🔬 Data-driven decision makers.
+    * 💡 Innovation leaders.
+
+    **Key Focus Areas:**
+    * Machine Learning 
+    * Artificial Intelligence
+    * Quant Finance
+    * Statistical Analysis
+    * Operations Research
+    * Reliability Engineering
+    * Industrial Statistics
+
+    
+    """
 )
 
     specialization_details()
