@@ -1,5 +1,9 @@
 import streamlit as st
 
+import streamlit as st
+
+import streamlit as st
+
 def specialization_details():
     tracks = {
         "🧮 Data Science & Analytics": [
