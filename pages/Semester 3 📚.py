@@ -29,7 +29,7 @@ def main():
         st.link_button("DOWNLOAD BUSINESS ANALYTICS MATERIAL💻",url ="")
     
     elif selected_material=="ADVANCED MULTIVARIATE ANALYSIS":
-        st.link_button("DOWNLOAD AMA MATERIAL📒",url="")
+        st.link_button("DOWNLOAD AMA BOOK📒",url="https://drive.google.com/file/d/10_hHk0NmSVAJUWvNVWduwapujwNNRxxG/view?usp=sharing")
     
     elif selected_material=="RELIABILITY - II":
         st.link_button("DOWNLOAD RELIABILITY MATERIAL📊",url="")
