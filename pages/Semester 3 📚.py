@@ -30,6 +30,7 @@ def main():
     
     elif selected_material=="ADVANCED MULTIVARIATE ANALYSIS":
         st.link_button("DOWNLOAD AMA BOOK📒",url="https://drive.google.com/file/d/10_hHk0NmSVAJUWvNVWduwapujwNNRxxG/view?usp=sharing")
+        st.link_button("DOWNLOAD AMA COMPLETE NOTES⚡",url= "https://drive.google.com/file/d/1JTWZFjCDjI7l60N1QrYYZlAAPOVTl7c3/view?usp=sharing")
     
     elif selected_material=="RELIABILITY - II":
         st.link_button("DOWNLOAD RELIABILITY MATERIAL📊",url="")
