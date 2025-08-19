@@ -69,18 +69,19 @@ def main():
     # --- HERO SECTION ---
     st.markdown(
     """
-    <div style='text-align:center; padding: 2em 0; background: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%); border-radius: 15px; margin: 1em 0;'>
-        <h1 style='font-size: 2.5em; font-weight: 700; color: #1E1E1E; margin-bottom: 0.3em; text-shadow: 2px 2px 4px rgba(0,0,0,0.1);'>
-            📚 M.Tech QROR Study Material Hub
+    <div style='text-align:center; padding: 0.8em 1em; background: #fafafa; border: 1px solid #ddd; border-radius: 8px; margin: 0.8em 0;'>
+        <h1 style='font-size: 1.4em; font-weight: 600; color: #1a1a1a; margin: 0.2em 0;'>
+            📚 M.Tech QROR Study Hub
         </h1>
-        <p style='font-size: 1.2em; color: #4A4A4A; font-weight: 500; margin-top: 0.5em;'>
-            Indian Statistical Institute, Kolkata 
-            <span style='margin: 0 0.5em;'>
+        <p style='font-size: 0.9em; color: #444; margin: 0;'>
+            Indian Statistical Institute, Kolkata
         </p>
     </div>
     """,
     unsafe_allow_html=True
 )
+
+
 
     # Modern quote box (no fixed background)
     st.markdown(
