@@ -41,7 +41,7 @@ def specialization_details():
         ],
     }
 
-    st.subheader("📌 Experts in these domain")
+    st.subheader("📌 Thrust Area")
     for track, topics in tracks.items():
         with st.expander(track):
             for point in topics:
@@ -99,30 +99,32 @@ def main():
     st.header("About the Program")
     st.markdown(
     """
-    
+    The **Indian Statistical Institute, Kolkata** is home to the 
+    **M.Tech in Quality, Reliability & Operations Research (QROR)** :
+    A program that doesn’t just teach theory, but prepares you to **make an impact**.  
+    You’ll work on real-world problems, dive deep into data, and build skills that 
+    let you shape decisions in industries that matter.  
 
-    The Indian Statistical Institute, Kolkata offers this specialized program combining academic excellence 
-    with industry relevance. 
-    Our graduates emerge as:
+    🌟 Our students grow into:
+    * 🎯 Professionals who can turn data into meaningful insights.  
+    * 🔬 Thinkers who use AI and statistics to solve real challenges.  
+    * 💡 Innovators ready to lead in finance, technology, and research.  
 
-    * 🎯 Industry-ready professionals.
-    * 🔬 Data-driven decision makers.
-    * 💡 Innovation leaders.
-
-    **Key Focus Areas:**
-    * Machine Learning 
-    * Artificial Intelligence
-    * Quant Finance
-    * Statistical Analysis
-    * Operations Research
-    * Reliability Engineering
-    * Industrial Statistics
+    ---
+    ### What you’ll explore:
+    * 🤖 **Artificial Intelligence & Machine Learning** – building smart, adaptive systems.  
+    * 🧠 **Deep Learning & GenAI** – from neural networks to advanced predictive models.  
+    * 📈 **Quantitative Finance & Risk Modelling** – making sense of uncertainty in markets.  
+    * 📊 **Statistical & Industrial Analytics** – the foundation of sound decisions.  
+    * 🛠 **Operations Research & Optimization** – solving complex efficiency puzzles.  
+    * 🔧 **Reliability & Quality Engineering** – ensuring systems last and perform.  
 
     
     """
 )
 
-    specialization_details()
+
+    
 
     # --- SYLLABUS SECTION ---
     st.markdown("---")
