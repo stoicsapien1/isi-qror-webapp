@@ -106,9 +106,9 @@ def main():
     let you shape decisions in industries that matter.  
 
     🌟 Our students grow into:
-    * 🎯 Professionals who can turn data into meaningful insights.  
-    * 🔬 Thinkers who use AI and statistics to solve real challenges.  
-    * 💡 Innovators ready to lead in finance, technology, and research.  
+    * Professionals who can turn data into meaningful insights.  
+    * Thinkers who use AI and statistics to solve real challenges.  
+    * Innovators ready to lead in finance, technology, and research.  
 
     ---
     ### What you’ll explore:
