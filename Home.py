@@ -113,7 +113,7 @@ def main():
     ---
     ### What you’ll explore:
     * 🤖 **Artificial Intelligence & Machine Learning** – building smart, adaptive systems.  
-    * 🧠 **Deep Learning & GenAI** – from neural networks to advanced predictive models.  
+    * 🧠 **Deep Learning & GenAI** – from neural networks to advanced chatbots.  
     * 📈 **Quantitative Finance & Risk Modelling** – making sense of uncertainty in markets.  
     * 📊 **Statistical & Industrial Analytics** – the foundation of sound decisions.  
     * 🛠 **Operations Research & Optimization** – solving complex efficiency puzzles.  
