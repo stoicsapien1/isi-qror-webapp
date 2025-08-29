@@ -22,7 +22,7 @@ def main():
         st.link_button("DOWNLOAD MID SEM PAPERS[NEW]📚",url="https://drive.google.com/file/d/1vuO_BLW8CaQOG0WP1QD6yXArQ08g9IKF/view?usp=sharing")
         st.link_button("DOWNLOAD END SEM PAPERS[NEW]🤓",url="https://drive.google.com/file/d/1GYFlYqzq3_i_-8ip6HQz20TVctEdXx_7/view?usp=sharing")
     elif selected_material=="SIX SIGMA":
-        st.link_button("DOWNLOAD SIX SIGMA MATERIAL😎",url="")
+        st.link_button("DOWNLOAD SIX SIGMA MATERIAL😎",url="https://drive.google.com/drive/folders/1TYK0ZDAxQbcemu9KB6owts6AEY9L2YnF?usp=sharing")
     
 
     elif selected_material=="BUSINESS ANALYTICS":

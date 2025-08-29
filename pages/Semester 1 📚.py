@@ -9,7 +9,7 @@ def main():
     selected_material = st.selectbox("Select the Subjects", ["QMS", "STATISTICAL METHOD 1", "PROBABILITY", "OPERATIONS RESEARCH", "PROGRAMMING AND DATA STRUCTURES", "RMMR TABLE","EXAMINATION PAPERS"])
     
     if selected_material == "RMMR TABLE":
-        st.link_button("VIEW RMMR TABLE📥", url="https://drive.google.com/file/d/1GxYgJQlY4sl6XDwmna01JFAVojprTuF5/view?usp=drive_link")
+        st.link_button("DOWNLOAD RMMR TABLE📥", url="https://drive.google.com/file/d/1GxYgJQlY4sl6XDwmna01JFAVojprTuF5/view?usp=drive_link")
     elif selected_material == "QMS":
         st.link_button("DOWNLOAD QMS STUDY MATERIAL 📖", url="https://drive.google.com/drive/folders/1AYiY3CMUkNWluAnP9BhMmZkx5RRZciwD?usp=sharing")
         st.link_button("DOWNLOAD QMS ASSIGNMENT 📝", url="https://drive.google.com/drive/folders/1oWbDYyQ_ExKCuGF-B7aWfkh68MlCYllM?usp=sharing")
