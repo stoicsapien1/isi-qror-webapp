@@ -145,8 +145,8 @@ def main():
     st.markdown("---")
     st.markdown(
         "<div style='text-align:center; font-size: 1.07em; margin-bottom:16px;'>"
-        "Made with ❤️ by Belal Ahmed Siddiqui"
-        "I hope your are satisfied with our product."
+        "Made with ❤️ by Belal Ahmed Siddiqui<br>"
+        "I hope you are satisfied with our product."
         "</div>",
         unsafe_allow_html=True,
     )
