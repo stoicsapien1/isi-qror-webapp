@@ -35,6 +35,7 @@ def main():
     elif selected_material=="RELIABILITY - II":
         st.link_button("DOWNLOAD RELIABILITY MATERIAL UPTO MIDSEM📊",url="https://drive.google.com/file/d/1w3dEgUc7cGFuusZiatTxnJNpY0v3xfjC/view?usp=sharing")
         st.link_button("DOWNLOAD RELIABILITY MATERIAL AFTER MIDSEM📊",url="https://drive.google.com/file/d/12N1Gg704l5kukpBmiGRCON8oLUG_22WC/view?usp=sharing")
+        st.link_button("DOWNLOAD RELIABILITY COMPLETE NOTES📚",url="https://drive.google.com/file/d/1bd3y5hHJQ1Bnp0BCYSRIKi3vp-3sl4RG/view?usp=sharing")
 
     elif selected_material=="INDUSTRIAL EXPERIMENTATION":
         st.link_button("DOWNLOAD IE MATERIAL💻",url="")
