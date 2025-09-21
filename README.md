@@ -10,7 +10,7 @@ This web application provides easy access to all essential academic resources fo
 
 - 📄 Lecture Notes  
 - 📚 Textbooks  
-- 📑 Research Papers  
+
 
 With an intuitive interface, you can quickly navigate and find the material you need to excel in your studies.
 
