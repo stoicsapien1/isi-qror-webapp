@@ -41,7 +41,9 @@ def main():
         st.link_button("DOWNLOAD IE MATERIAL💻",url="")
     
     elif selected_material=="OPERATIONS RESEARCH":
-        st.link_button("DOWNLOAD OR MATERIAL📉",url= "")
+        st.link_button("DOWNLOAD OR MATERIAL📉",url= "https://drive.google.com/file/d/144Al12hnk9xqM321vAtr5a3zrgZ1G3e_/view?usp=sharing")
+        st.link_button("DOWNLOAD BAZARAA BOOK 📒",url= "https://drive.google.com/file/d/1vGIR58UuETrEj-BkNrroW1Zj2OLWUHXW/view?usp=sharing")
+        st.link_button("DOWNLOAD OR NOTES 📒",url = "https://drive.google.com/file/d/1MFGB8f9VAcPddv9N8JDd3qtJouR-ERRk/view?usp=sharing ")
     
 
     elif selected_material=="RMMR TABLE":
