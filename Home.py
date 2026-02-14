@@ -1,6 +1,141 @@
 import streamlit as st
 
-def specialization_details():
+def main():
+    st.set_page_config(
+        page_title="ISI QROR Study Hub",
+        page_icon="📚",
+        layout="centered"
+    )
+    
+    # Custom CSS for modern styling
+    st.markdown("""
+        <style>
+        /* Main container spacing */
+        .block-container {
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+        
+        /* Expander styling */
+        .streamlit-expanderHeader {
+            font-size: 1.05rem;
+            font-weight: 500;
+        }
+        
+        /* Better spacing for lists */
+        .stMarkdown ul {
+            margin-top: 0.5rem;
+        }
+        
+        .stMarkdown li {
+            margin-bottom: 0.4rem;
+        }
+        </style>
+    """, unsafe_allow_html=True)
+
+    # Sidebar
+    with st.sidebar:
+        st.markdown("### 📬 Contact")
+        st.info("**Admin** : Belal Ahmed Siddiqui")
+        
+        st.markdown("---")
+        st.caption("Made with ❤️ for ISI QROR Students")
+
+    # Hero Section
+    st.markdown("""
+        <div style='text-align: center; padding: 2.5rem 1.5rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+                    border-radius: 16px; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1);'>
+            <h1 style='color: white; font-size: 2.2rem; font-weight: 700; margin: 0 0 0.5rem 0; letter-spacing: -0.5px;'>
+                📚 M.Tech QROR Study Hub
+            </h1>
+            <p style='color: rgba(255,255,255,0.95); font-size: 1.1rem; margin: 0; font-weight: 400;'>
+                Indian Statistical Institute, Kolkata
+            </p>
+        </div>
+    """, unsafe_allow_html=True)
+
+    # Quote Section
+    st.markdown("""
+        <div style='background: #f8f9fa; border-left: 4px solid #667eea; padding: 1.5rem 2rem; 
+                    border-radius: 8px; margin: 2rem 0;'>
+            <p style='font-size: 1.15rem; font-style: italic; color: #2c3e50; margin: 0 0 0.5rem 0; line-height: 1.6;'>
+                "Arise, awake, and stop not until the goal is reached."
+            </p>
+            <p style='text-align: right; color: #5a6c7d; font-size: 0.95rem; margin: 0;'>
+                — Swami Vivekananda
+            </p>
+        </div>
+    """, unsafe_allow_html=True)
+
+    # About Section
+    st.markdown("## About the Program")
+    
+    st.markdown("""
+        The **Indian Statistical Institute, Kolkata** offers the **M.Tech in Quality, Reliability & Operations Research (QROR)** — 
+        a program designed to transform theory into real-world impact.
+        
+        Work on challenging problems, master data-driven decision making, and develop expertise that drives innovation across industries.
+    """)
+    
+    # Key Outcomes
+    st.markdown("### 🌟 What You'll Become")
+    
+    cols = st.columns(3)
+    with cols[0]:
+        st.markdown("""
+            <div style='background: #e8f4f8; padding: 1.2rem; border-radius: 10px; height: 100%;'>
+                <div style='font-size: 2rem; margin-bottom: 0.5rem;'>📊</div>
+                <div style='font-weight: 600; color: #1e3a8a; margin-bottom: 0.3rem;'>Data Professional</div>
+                <div style='font-size: 0.9rem; color: #475569;'>Turn data into actionable insights</div>
+            </div>
+        """, unsafe_allow_html=True)
+    
+    with cols[1]:
+        st.markdown("""
+            <div style='background: #f3e8ff; padding: 1.2rem; border-radius: 10px; height: 100%;'>
+                <div style='font-size: 2rem; margin-bottom: 0.5rem;'>🧠</div>
+                <div style='font-weight: 600; color: #6b21a8; margin-bottom: 0.3rem;'>Problem Solver</div>
+                <div style='font-size: 0.9rem; color: #475569;'>Use AI to tackle real challenges</div>
+            </div>
+        """, unsafe_allow_html=True)
+    
+    with cols[2]:
+        st.markdown("""
+            <div style='background: #fef3c7; padding: 1.2rem; border-radius: 10px; height: 100%;'>
+                <div style='font-size: 2rem; margin-bottom: 0.5rem;'>🚀</div>
+                <div style='font-weight: 600; color: #92400e; margin-bottom: 0.3rem;'>Industry Leader</div>
+                <div style='font-size: 0.9rem; color: #475569;'>Lead in finance, tech & research</div>
+            </div>
+        """, unsafe_allow_html=True)
+
+    st.markdown("<br>", unsafe_allow_html=True)
+
+    # Core Areas
+    st.markdown("### 🎯 Core Areas of Study")
+    
+    areas = {
+        "🤖 AI & Machine Learning": "Build intelligent, adaptive systems",
+        "🧠 Deep Learning & GenAI": "From neural networks to advanced models",
+        "📈 Quantitative Finance": "Risk modeling and market analysis",
+        "📊 Statistical Analytics": "Foundation of data-driven decisions",
+        "🛠 Operations Research": "Solve complex optimization problems",
+        "🔧 Quality Engineering": "Ensure reliability and performance"
+    }
+    
+    cols = st.columns(2)
+    for idx, (area, desc) in enumerate(areas.items()):
+        with cols[idx % 2]:
+            st.markdown(f"""
+                <div style='background: white; border: 1px solid #e5e7eb; padding: 1rem; 
+                            border-radius: 8px; margin-bottom: 0.8rem;'>
+                    <div style='font-weight: 600; color: #1f2937; margin-bottom: 0.3rem;'>{area}</div>
+                    <div style='font-size: 0.9rem; color: #6b7280;'>{desc}</div>
+                </div>
+            """, unsafe_allow_html=True)
+
+    # Specialization Tracks
+
+    
     tracks = {
         "🧮 Data Science & Analytics": [
             "Analytics and insights for decision-making",
@@ -40,116 +175,34 @@ def specialization_details():
             "Panel data models and causal inference"
         ],
     }
+    
 
-    st.subheader("📌 Thrust Area")
-    for track, topics in tracks.items():
-        with st.expander(track):
-            for point in topics:
-                st.markdown(f"- {point}")
 
-def main():
-    st.set_page_config(
-        page_title="ISI QROR Material Hub",
-        page_icon="📚",
-        layout="centered"
-    )
-
-    # --- SIDEBAR: Contact Section ---
-    with st.sidebar:
-        st.markdown(
-            """
-            
-            ### 📬 Contact Information
-            For any queries, please contact:
-            - **Admin:** Belal Ahmed Siddiqui
-            """,
-            unsafe_allow_html=True
+    # Syllabus Section
+    st.markdown("---")
+    st.markdown("## 📘 Syllabus")
+    
+    col1, col2, col3 = st.columns([1, 2, 1])
+    with col2:
+        st.link_button(
+            "📒 View Detailed Syllabus",
+            url="https://drive.google.com/file/d/1otS_-835q4W_EuDuWLtTTGohF-d21Wzk/view?usp=sharing",
+            use_container_width=True
         )
 
-    # --- HERO SECTION ---
-    st.markdown(
-    """
-    <div style='text-align:center; padding: 0.8em 1em; background: #fafafa; border: 1px solid #ddd; border-radius: 8px; margin: 0.8em 0;'>
-        <h1 style='font-size: 1.4em; font-weight: 600; color: #1a1a1a; margin: 0.2em 0;'>
-            📚 M.Tech QROR Study Hub
-        </h1>
-        <p style='font-size: 0.9em; color: #444; margin: 0;'>
-            Indian Statistical Institute, Kolkata
-        </p>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+    # Disclaimer
+    st.markdown("---")
+    st.info("**Disclaimer:** All shared materials are for educational use only. Copyright belongs to the original owners.")
 
-
-
-    # Modern quote box (no fixed background)
-    st.markdown(
-        """
-        <div style='border-radius:12px; padding:18px 24px; margin:18px 0;'>
-            <div style='font-size:1.13em; font-style:italic; font-weight:600; line-height:1.5;'>
-            “Arise, awake, and stop not until the goal is reached.”
-            </div>
-            <div style="font-size:1.02em; text-align:right;">— Swami Vivekananda</div>
+    # Footer
+    st.markdown("<br>", unsafe_allow_html=True)
+    st.markdown("""
+        <div style='text-align: center; padding: 1.5rem; background: #f9fafb; border-radius: 8px; margin-top: 2rem;'>
+            <p style='color: #6b7280; font-size: 0.95rem; margin: 0;'>
+                Made with ❤️ by <strong>Belal Ahmed Siddiqui</strong>
+            </p>
         </div>
-        """,
-        unsafe_allow_html=True
-    )
-
-    st.header("About the Program")
-    st.markdown(
-    """
-    The **Indian Statistical Institute, Kolkata** is home to the 
-    **M.Tech in Quality, Reliability & Operations Research (QROR)** :
-    A program that doesn’t just teach theory, but prepares you to **make an impact**.  
-    You’ll work on real-world problems, dive deep into data, and build skills that 
-    let you shape decisions in industries that matter.  
-
-    🌟 Our students grow into:
-    * Professionals who can turn data into meaningful insights.  
-    * Thinkers who use AI and statistics to solve real challenges.  
-    * Innovators ready to lead in finance, technology, and research.  
-
-    ---
-    ### What you’ll explore:
-    * 🤖 **Artificial Intelligence & Machine Learning** – building smart, adaptive systems.  
-    * 🧠 **Deep Learning & GenAI** – from neural networks to advanced chatbots.  
-    * 📈 **Quantitative Finance & Risk Modelling** – making sense of uncertainty in markets.  
-    * 📊 **Statistical & Industrial Analytics** – the foundation of sound decisions.  
-    * 🛠 **Operations Research & Optimization** – solving complex efficiency puzzles.  
-    * 🔧 **Reliability & Quality Engineering** – ensuring systems last and perform.  
-
-    
-    """
-)
-
-
-    
-
-    # --- SYLLABUS SECTION ---
-    st.markdown("---")
-    st.markdown("### 📘 Syllabus")
-    st.link_button(
-        "📒 View Detailed Syllabus",
-        url="https://drive.google.com/file/d/1otS_-835q4W_EuDuWLtTTGohF-d21Wzk/view?usp=sharing",
-    )
-
-    # --- Disclaimer / Warning ---
-    st.markdown("---")
-    st.markdown("**Disclaimer:**")
-    st.warning(
-        "All shared materials (PDFs, books, notes) are for educational use only. Copyright belongs to the original owners."
-    )
-
-    # --- Footer ---
-    st.markdown("---")
-    st.markdown(
-        "<div style='text-align:center; font-size: 1.07em; margin-bottom:16px;'>"
-        "Made with ❤️ by Belal Ahmed Siddiqui<br>"
-        "I do hope you are satisfied with our product."
-        "</div>",
-        unsafe_allow_html=True,
-    )
+    """, unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
