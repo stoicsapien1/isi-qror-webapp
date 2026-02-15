@@ -43,16 +43,21 @@ def main():
 
     # Hero Section
     st.markdown("""
-        <div style='text-align: center; padding: 2.5rem 1.5rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
-                    border-radius: 16px; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1);'>
-            <h1 style='color: white; font-size: 2.2rem; font-weight: 700; margin: 0 0 0.5rem 0; letter-spacing: -0.5px;'>
-                📚 M.Tech QROR Study Hub
-            </h1>
-            <p style='color: rgba(255,255,255,0.95); font-size: 1.1rem; margin: 0; font-weight: 400;'>
-                Indian Statistical Institute, Kolkata
-            </p>
-        </div>
-    """, unsafe_allow_html=True)
+    <div style='text-align: center; padding: 1.5rem 1rem; 
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                border-radius: 12px; margin-bottom: 1.2rem; 
+                box-shadow: 0 3px 5px rgba(0,0,0,0.1);'>
+        <h1 style='color: white; font-size: 1.6rem; 
+                   font-weight: 600; margin: 0 0 0.3rem 0;'>
+            📚 M.Tech QROR Study Hub
+        </h1>
+        <p style='color: rgba(255,255,255,0.6); 
+                  font-size: 0.95rem; margin: 0;'>
+            Indian Statistical Institute, Kolkata
+        </p>
+    </div>
+""", unsafe_allow_html=True)
+
 
     # Quote Section
     st.markdown("""
