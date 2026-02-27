@@ -11,7 +11,7 @@ def main():
             st.link_button("DOWNLOAD DATA SCIENCE BOOKS[COMPILED BY SOUBHIK BHATTACHARYA]⚡⚡",url="https://drive.google.com/drive/folders/1tMlOwyXzpiiSWmvlP-X7HSrc4dxBi0YJ?usp=sharing")
     elif selected_material=="INTERVIEW":
         st.link_button("INTERVIEW PREP PLATFORM",url="https://cracked-ds-platform.vercel.app")
-        st.link_button("INTERVIEW QUESTION PDF",url= "https://drive.google.com/file/d/1JJ0Co6YTXa8qMFAjqKVTkp8WzTz33JpL/view?usp=sharing")
+        st.link_button("INTERVIEW QUESTIONS PDF",url= "https://drive.google.com/file/d/1JJ0Co6YTXa8qMFAjqKVTkp8WzTz33JpL/view?usp=sharing")
             
     elif selected_material=="YT PLAYLIST":
 
