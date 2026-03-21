@@ -12,6 +12,7 @@ def main():
     elif selected_material=="INTERVIEW":
         st.link_button("INTERVIEW PREP PLATFORM",url="https://cracked-ds-platform.vercel.app")
         st.link_button("INTERVIEW QUESTIONS PDF",url= "https://drive.google.com/file/d/1JJ0Co6YTXa8qMFAjqKVTkp8WzTz33JpL/view?usp=sharing")
+        st.link_buttton("IMPORTANT PDFs",url = "https://drive.google.com/drive/folders/1dysGAdEkuO8TdDVZXn5vQws-o5HmPZjl?usp=sharing")
             
     elif selected_material=="YT PLAYLIST":
 
