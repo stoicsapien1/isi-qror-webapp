@@ -43,34 +43,7 @@ def main():
         st.link_button("BASIC ML PROJECTS",url="https://www.youtube.com/watch?v=fiz1ORTBGpY&list=PLfFghEzKVmjvuSA67LszN1dZ-Dd_pkus6")         
          
          
-    st.markdown("""
-    <style>
-        .playlist {
-            color: #1f77b4; /* blue */
-        }
-        .project {
-            color: #ff7f0e; /* orange */
-        }
-        .books {
-            color: #2ca02c; /* green */
-        }
-        .highlight {
-            font-weight: bold;
-        }
-    </style>
-    """, unsafe_allow_html=True)
-
-    st.markdown("""
-    ### <span class="playlist">YT PLAYLIST</span>
-    This section contains YouTube playlists on several ML topics like <span class="highlight">Numpy</span>, <span class="highlight">Pandas</span>, <span class="highlight">Seaborn</span>, etc.
-
-    ### <span class="project">PROJECT</span>
-    This section contains video links to several ML projects.
-
-    ### <span class="books">ML BOOKS</span>
-    This section contains several <span class="highlight">Machine Learning (ML)</span>, <span class="highlight">Deep Learning (DL)</span>, and <span class="highlight">Time-Series</span> books.
-    """, unsafe_allow_html=True)
-
+    
 
 
 
