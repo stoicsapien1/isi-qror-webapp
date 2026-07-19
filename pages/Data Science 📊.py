@@ -26,6 +26,7 @@ def main():
             st.link_button("YT Python Playlist",url="https://www.youtube.com/watch?v=JP7ITIXGpHk&list=PLhQjrBD2T3817j24-GogXmWqO5Q5vYy0V&index=2")
             st.link_button("Python Practice[HACKERRANK]",url="https://www.hackerrank.com/domains/python")
             st.link_button("Python Question[PDF]",url="https://docs.google.com/document/d/1CuKacG3lnnt5B-7kB9p1DiJ2PLFW8TQWn9JG1lTYRJs/edit#heading=h.ghy5ky51yxzv")
+            st.link_button("CampusX DSMP Python",url = "https://www.youtube.com/watch?v=1z5-O7-5AXk&list=PLKnIA16_RmvbAlyx4_rdtR66B7EHX5k3z")
         elif data=="NUMPY":
             st.link_button("NUMPY PLAYLIST",url="https://www.youtube.com/watch?v=d0E0_87CrFA&list=PLyMom0n-MBrpzC91Uo560S4VbsiLYtCwo&index=4")
 
