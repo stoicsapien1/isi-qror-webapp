@@ -48,11 +48,11 @@ def main():
 
     # 4. Hero Section (Gradient Banner)
     st.markdown("""
-        <div class="hover-card" style='text-align: center; padding: 2rem 1rem; 
+        <div class="hover-card" style='text-align: center; padding: 1rem 0.75rem; 
                     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
                     margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1);'>
-            <h1 style='color: white; font-size: 2.2rem; font-weight: 700; margin: 0 0 0.5rem 0;'>
-                📚 M.Tech QROR Study Hub
+            <h1 style='color: white; font-size: 2.2rem; font-weight: 500; margin: 0 0 0.5rem 0;'>
+                 M.Tech QROR Study Hub
             </h1>
             <p style='color: rgba(255,255,255,0.9); font-size: 1.1rem; margin: 0; font-weight: 400;'>
                 Indian Statistical Institute, Kolkata
