@@ -29,7 +29,7 @@ def main():
     st.sidebar.success("SELECT THE PAGE ABOVE")
 
     st.info(
-        f"Indexing **{len(MATERIALS)}** resources across "
+        f"Indexing **{len(MATERIALS)}** + resources across "
         f"{len(get_semesters())} sections. This searches titles/subjects/tags — "
         "it opens the original Google Drive link, it doesn't search text *inside* the PDFs.",
         icon="ℹ️",
