@@ -18,7 +18,7 @@ TYPE_ICONS = {
 def main():
     st.set_page_config(
         page_title="ASUR - Material Search",
-        page_icon="🔍",
+        page_icon="👹",
         layout="centered",
         initial_sidebar_state="auto",
         menu_items=None,
