@@ -10,7 +10,7 @@ def main():
     if selected_material=="ML BOOKS":
             st.link_button("DOWNLOAD DATA SCIENCE BOOKS[COMPILED BY SOUBHIK BHATTACHARYA]⚡⚡",url="https://drive.google.com/drive/folders/1tMlOwyXzpiiSWmvlP-X7HSrc4dxBi0YJ?usp=sharing")
     elif selected_material=="INTERVIEW":
-        st.image("https://i.postimg.cc/FR4mtNM6/Gemini-Generated-Image-sp1u4lsp1u4lsp1u-(1).png")
+        
         st.link_button("INTERVIEW PREP PLATFORM",url="https://cracked-ds-platform.vercel.app")
         st.link_button("INTERVIEW QUESTIONS PDF",url= "https://drive.google.com/file/d/1JJ0Co6YTXa8qMFAjqKVTkp8WzTz33JpL/view?usp=sharing")
         st.link_button("EXTRA INTERVIEW QUESTIONs & IMPORTANT PDFs",url = "https://drive.google.com/drive/folders/1dysGAdEkuO8TdDVZXn5vQws-o5HmPZjl?usp=sharing")
