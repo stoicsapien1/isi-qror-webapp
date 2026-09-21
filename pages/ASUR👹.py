@@ -24,7 +24,7 @@ def main():
         menu_items=None,
     )
 
-    st.title("👹 A.S.U.R.")
+    st.title("ASUR👹")
     st.caption("Search every study material link in the QROR Study Hub - notes, books, papers, assignments, and more  in one place.")
     st.sidebar.success("SELECT THE PAGE ABOVE")
 
