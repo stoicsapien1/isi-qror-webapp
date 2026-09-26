@@ -41,7 +41,8 @@ def main():
         elif data=="DL":
             st.link_button("DL CAMPUSX",url="https://www.youtube.com/watch?v=2dH_qjc9mFg&list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn")    
     elif selected_material=="PROJECT":
-        st.link_button("BASIC ML PROJECTS",url="https://www.youtube.com/watch?v=fiz1ORTBGpY&list=PLfFghEzKVmjvuSA67LszN1dZ-Dd_pkus6")         
+        st.link_button("BASIC ML PROJECTS",url="https://www.youtube.com/watch?v=fiz1ORTBGpY&list=PLfFghEzKVmjvuSA67LszN1dZ-Dd_pkus6")  
+        st.link_button("WORLD QUANT APPLIED DATA SCIENCE LAB",url="https://www.wqu.edu/data-science-lab")
          
          
     
